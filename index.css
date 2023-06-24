@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+     /* uigradients.com */
+     background: #0f0c29;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Oxygen", sans-serif;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid darkred;
+    cursor: pointer;
+    outline: none;
+}
+
+.fun {
+        /* CSS generated from https://uigradients.com */
+        background: #00F260;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
